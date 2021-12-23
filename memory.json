@@ -1,0 +1,52 @@
+{
+    "memory":
+    {
+        "speech":
+        {
+            "greet":
+            {
+                "input":
+                [
+                    "hi",
+                    "hey",
+                    "hello",
+                    "ola",
+                    "sup",
+                    "aweh",
+                    "greetings",
+                    "yo"
+                ],
+                "output":
+                [
+                    "hello!",
+                    "ola!",
+                    "good to see you!",
+                    "well met!",
+                    "how are you?",
+                    "hi there!",
+                    "Yo!"
+                ]
+            },
+
+            "awkward":
+            {
+                "input": [],
+                "output":
+                [
+                    "hmm?",
+                    "sorry what?",
+                    "come again?",
+                    "ermm... okay?",
+                    "lol"
+                ]
+
+            },
+
+            "insult":
+            {
+                "input":["fuck you","asshole","shut up","bitch"],
+                "output":["thank you ;-)","takes one to know one ;-)"]
+            }
+        }
+    }
+}
